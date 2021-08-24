@@ -1,0 +1,41 @@
+//Universal Global Setting
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+//html global settings
+html {
+    font-size: 62.5%;
+
+    @include respond(phone){
+        font-size: 48%;
+    }
+}
+
+// body global settings
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: $body-background;
+    color: #333;
+    line-height: 1.6;
+    overflow-y: auto;
+}
+
+// li tag global settings
+li {
+    list-style: none;
+
+}
+
+// ul tag global setting
+ul{
+    list-style: none; 
+}
+
+// a tag global settings
+ul,a {
+    text-decoration: none;
+    color: $white-1;
+}

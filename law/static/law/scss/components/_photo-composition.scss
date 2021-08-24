@@ -1,0 +1,167 @@
+.photo-composition {
+    width: 50%;
+    height: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+
+.circle__container{
+    display: inline-block;
+}
+
+.dot {
+    height: 28rem;
+    width: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(129,	149	,166, 0.1);
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+
+.dot-2 {
+    height: 19rem;
+    width: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #022647;
+    border-radius: 50%;
+
+
+    .composition-card {
+        background-color: white;
+        height: 15rem;
+        width: 16rem;
+        border-radius: 10px;
+    }
+}
+
+
+.avatar-top {
+    height: 7.5rem;
+    width: 7.5rem;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    bottom: 27.5rem;
+    right: 20rem;
+    object-fit: cover;
+
+}
+
+
+.avatar-top-left {
+    height: 10.5rem;
+    width: 10.5rem;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    bottom: 12rem;
+    right: 24.7rem;
+    object-fit: cover;
+
+}
+
+.avatar-top-right{    height: 12.5rem;
+    width: 12.5rem;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    bottom: 27.5rem;
+    right: 2rem;
+    object-fit: cover;
+}
+
+
+.avatar-bottom-left {
+    height: 11.5rem;
+    width: 11.5rem;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    top: 22.8rem;
+    right: 22.8rem;
+    object-fit: cover;
+
+}
+
+.avatar-bottom-middle {
+    height: 8.0rem;
+    width: 8.0rem;
+    position: absolute;
+    background-color: wheat;
+    border-radius: 50%;
+    top: 24.3rem;
+ 
+    object-fit: cover;
+}
+
+
+.avatar-bottom-right {
+    height: 11.0rem;
+    width: 11.0rem;
+    position: absolute;
+    background-color: wheat;
+    border-radius: 50%;
+    top: 26.3rem;
+    left: 19rem;
+    object-fit: cover;
+
+}
+
+.avatar-middle-right-1 {
+    height: 7.0rem;
+    width: 7.0rem;
+    position: absolute;
+    background-color: wheat;
+    border-radius: 50%;
+    top: 3rem;
+    left: 23rem;
+    object-fit: cover;
+}
+
+
+.avatar-middle-right {
+    height: 10.0rem;
+    width: 10.0rem;
+    position: absolute;
+    background-color: wheat;
+    border-radius: 50%;
+    top: 11rem;
+    left: 27.5rem;
+    object-fit: cover;
+}
+
+.composition-card {
+    background-color: white;
+    height: 20rem;
+    width: 21rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.composition-card-text{
+font-size: 1.6rem;
+font-weight: 800;
+}
+
+
+.icon-iconmonstr-check-mark-14{
+    width: 4rem;
+    height: 4rem;
+}

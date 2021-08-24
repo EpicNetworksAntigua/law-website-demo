@@ -1,0 +1,86 @@
+.team {
+    width: 80rem;
+    height: 100%;
+    margin: 0 auto;
+  position: relative;
+
+
+    &__cardcontainer {
+
+        display: inline-block;
+        padding: 6rem 0 0 0;
+        width: 50rem;
+     
+    }
+
+    &__card {
+        padding: 30px 30px 0 37px;
+        width: 40rem;
+        height: 35rem;
+        border-radius: 8px;
+        display: inline-block;
+        background-color: $white-1;
+
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+
+        &--overline {
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+
+        }
+
+        &--title {
+
+            font-size: 2.0rem;
+            font-weight: 700;
+            width: 70%;
+            margin: 5px 0 46px 0;
+
+        }
+
+
+        &--description {
+            font-weight: 400;
+            font-size: 1.4rem;
+            width: 95%;
+            margin: 0 0 46px 0;
+
+
+        }
+
+
+
+        &--statscontainer {
+
+            display: flex;
+            justify-content: space-around;
+
+
+
+            &--elements {
+                font-size: 1.4rem;
+                font-weight: 700;
+
+                span {
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+    }
+
+    &__image {
+        position:absolute;
+        max-height: 50rem;
+        bottom:0;
+    }
+
+
+}
+
+
+

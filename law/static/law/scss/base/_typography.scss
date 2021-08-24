@@ -1,0 +1,98 @@
+// hero
+#heading-text {
+
+    font-size: 5rem;
+    color: $white-1;
+}
+
+
+#heading-subtext {
+
+    font-size: 2rem;
+    color: $white-1;
+    width: 50rem;
+    margin-top: 25px;
+    margin-bottom: 19px;
+    line-height: 1.6;
+
+
+}
+
+// body Text
+.overline-heading-text {
+    text-transform: uppercase;
+
+    font-size: 2.0rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+.body-title-text {
+    font-size: 3.4rem;
+    font-weight: 800;
+    text-align: center;
+  margin-top: 2rem;
+
+}
+
+
+// Card Text
+
+.card__title{
+display: inline-block;
+font-size: 2rem;
+}
+
+
+.card__description{
+    font-size: 1.5rem;
+    margin-top: 1.6rem;
+}
+
+
+// about Text
+.about-heading-text {
+    text-transform: uppercase;
+width: 20rem;
+    font-size: 2.0rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+
+
+.about-title-text {
+    font-size: 3.4rem;
+    font-weight: 800;
+    text-align: left;
+  margin-top: 4rem;
+
+}
+
+// Team
+.team-heading-text {
+    text-transform: uppercase;
+width: 20rem;
+    font-size: 2.0rem;
+    font-weight: 700;
+    display: inline-block;
+    color: $white-1;
+}
+
+
+
+.team-title-text {
+    font-size: 3.4rem;
+    font-weight: 800;
+    text-align: left;
+  margin-top: 4rem;
+  color: $white-1;
+
+
+}
+
+.team-description-text{
+    color: white;
+    font-size: 1.6rem;
+}

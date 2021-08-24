@@ -1,0 +1,23 @@
+.navbar{
+width:100%;
+display: flex;
+
+justify-content: space-between;
+align-items:center;
+background-color: transparent;
+padding: .8rem  10rem 0;
+height: 94px;
+&__nav{
+
+ &--links{
+     font-size: 1.6rem;
+
+     
+     &:not(:last-child) {
+       padding-right: 46px;
+
+      }
+ }
+    
+}
+}

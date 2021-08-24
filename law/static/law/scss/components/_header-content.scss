@@ -1,0 +1,40 @@
+.hero-content {
+
+    width: 90vw;
+    padding: 0 15rem 0 15rem;
+    height: calc(84vh - 94px);
+    margin: 0 auto;
+
+    position: relative;
+ 
+
+
+
+
+    &__content {
+
+        display: inline-block;
+        padding: 1.5rem 0 0 8rem;
+        width: 60rem;
+        height: 100%;
+        vertical-align: top;
+        animation-name: moveInLeft;
+        animation-duration: .7s;
+    
+        animation-timing-function:ease-in-out;
+    }
+
+    &__image {
+        // max-width: 25rem;
+        display: inline-block;
+        max-height: 100%;
+        position: absolute;
+        bottom: 0;
+        animation-name: moveInRight;
+        animation-duration: .7s;
+    
+        animation-timing-function: ease-in-out;
+        // animation-interation-count:3;
+    }
+
+}

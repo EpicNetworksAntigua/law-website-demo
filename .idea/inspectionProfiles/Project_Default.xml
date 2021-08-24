@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="myproject.models.flask_login" />
+          <option value="myproject.users.forms.User" />
+          <option value="myproject.users.views.form" />
+          <option value="book_app.core" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

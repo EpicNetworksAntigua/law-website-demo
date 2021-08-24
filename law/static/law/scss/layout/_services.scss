@@ -1,0 +1,43 @@
+#services {
+
+   
+    height: fit-content;
+    background-color: $white-1;
+    padding: 6rem 10rem 6rem 10rem;
+    
+}
+
+.overline-text-container {
+
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.icon-justice {
+
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 16px;
+
+}
+
+.cards-container {
+
+    width: 100%;
+    height: 35rem;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.2rem 0 1.2rem 0 ;
+
+
+}
